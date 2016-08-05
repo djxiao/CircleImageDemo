@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:djx="http://schemas.android.com/apk/res/com.djxiao.circleimagedemo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.djxiao.circleimagedemo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.djxiao.circleimagedemo.RoundImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/test"/>
+            <com.djxiao.circleimagedemo.RoundImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pic_2"
+                djx:type = "round"
+                djx:borderRadius = "10dp"/>
+            <com.djxiao.circleimagedemo.RoundImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/test"/>
+            <com.djxiao.circleimagedemo.RoundImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/test"/>
+            <com.djxiao.circleimagedemo.RoundImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/test"/>
+
+            <com.djxiao.circleimagedemo.RoundImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/test"
+                djx:type = "round"
+                djx:borderRadius = "20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
